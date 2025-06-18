@@ -1,0 +1,5 @@
+runtime: python39  # Runtime apa pun bisa, karena hanya serve static
+handlers:
+  - url: /
+    static_files: index.html
+    upload: index.html
